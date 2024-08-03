@@ -1,5 +1,5 @@
 void main() {
-  var numbers = [4,6,3,2,1,5];
+  var numbers = [4, 6, 3, 2, 1, 5];
   //Sorting in ascending order
   numbers.sort();
   print(numbers); // [1,2,3,4,5,6]
