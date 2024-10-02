@@ -23,7 +23,7 @@ void main() {
       continue;
     }
      print('Enter expense category (Food, Transport, Entertainment, Other):');
-     String? category = stdin.readLineSync();
+     String? category = stdin.readLineSync()?.toLowerCase();
      if (category != FOOD && category != TRANSPORT && category != ENTERTAINMENT && category != OTHER) {
       print('Invalid category. please enter one of the following: food, transport, entertainment, other.');
       continue;
